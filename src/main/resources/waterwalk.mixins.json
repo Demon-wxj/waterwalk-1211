@@ -1,0 +1,1 @@
+{"required":true,"package":"local.waterwalk.mixin","compatibilityLevel":"JAVA_21","mixins":["PlayerStateMixin","FluidBlockMixin"],"injectors":{"defaultRequire":1}}

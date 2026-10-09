@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "waterwalk",
+  "version": "${version}",
+  "name": "轻功 · 水上漂",
+  "description": "Toggleable water walking with soft, expanding footstep ripples.",
+  "authors": [
+    "wxj"
+  ],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "local.waterwalk.WaterWalk"
+    ],
+    "client": [
+      "local.waterwalk.client.WaterWalkClient"
+    ]
+  },
+  "mixins": [
+    "waterwalk.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "license": "GPL-3.0-only"
+}
